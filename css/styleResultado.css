@@ -41,9 +41,23 @@
     font-size: 15px;
     padding: 2px;
 }
-
-
-
+.fila-color {
+    background-color: rgba(243, 31, 45, 0.205) ;
+    
+}
+.fila-color1 {
+    background-color: rgba(68, 158, 172, 0.281) ;
+    
+}
+.fila-color2 {
+    background-color: rgba(251, 185, 52, 0.219) ;
+    
+}
+.grid-block {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 25px;
+}
 
 #f {
     margin-top: 50px;
@@ -169,13 +183,13 @@ font-weight: bold;
 
 .premios{
     display: flex;
-    padding:20px;
+    
     justify-content: center;
 }
 .premiosr{
     display: flex;
-    margin: 25px 0px 25px 0px;
-    justify-content: start;
+    margin: 25px auto 25px auto;
+    justify-content: center;
     
 }
 .br{
@@ -209,6 +223,12 @@ font-weight: bold;
     font-size: 20px;
     color: white;
     padding: 5px;
+}
+
+.r{
+    text-align: center;
+    margin: auto;
+    margin-right: 14px;
 }
 
 .c1{
